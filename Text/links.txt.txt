@@ -1,0 +1,10 @@
+https://aticleworld.com/use-of-function-pointer-in-c/
+
+
+
+
+
+
+Linked List:
+
+https://www.learn-c.org/en/Linked_lists
