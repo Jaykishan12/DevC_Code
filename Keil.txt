@@ -1,0 +1,3 @@
+Generating Bin File In Keil : 
+
+fromelf --bin -o "$l@l.bin" "$l@l.axf"

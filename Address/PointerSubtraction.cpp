@@ -5,5 +5,6 @@ int main(){
 	int temp = 0;
 	temp = (int ) ptr - 0x21;
 	printf("%d\n",temp);
+	printf("PointerSize %d"(char *));
 	return 0;
 }
