@@ -12,5 +12,7 @@ int main(){
 		memset(*(ptr + i),0x00,sizeof(int8_t) * 16);
 	}
 	strcpy((char *)*(ptr + 0),(char *)string);
-	printf("%s", *(ptr));
+	printf("%s\n", *(ptr ));
+		strcpy((char *)*(ptr + 1),(char *)"hey");
+	printf("%s", *(ptr + 1));
 }

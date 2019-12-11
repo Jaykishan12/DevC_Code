@@ -34,7 +34,7 @@ void SortingTechniques(int a[],int size, SortingTechnique type, SortingOrder Ord
 		case AscendingOrder :
 			 	if(type == SelectionSort)
 				{
-					for(i = 0; i < size - 1; i++){
+					for(i = 0; i < size - 1; i++){                          //         5, 9, 13, 17 and 21 are arranged in ascending order.
 						index = i;
 						for(j = i + 1; j < size; j++){
 						if(a[j] < a[index]){
@@ -53,12 +53,12 @@ void SortingTechniques(int a[],int size, SortingTechnique type, SortingOrder Ord
 					}
 				}
 			break;
-		case DescendingOrder:
+		case DescendingOrder:                           
 				if(type == SelectionSort){
 					for(i = 0;  i < size - 1; i++){
 						index = i;
 						for(j = i + 1; j < size; j++){
-							if(a[j] > a[index]){
+							if(a[j] > a[index]){														//          21, 17, 13, 9 and 3 are arranged in ascending order.
 								index = j;
 							}
 						}
