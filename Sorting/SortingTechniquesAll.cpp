@@ -37,11 +37,11 @@ void SortingTechniques(int a[],int size, SortingTechnique type, SortingOrder Ord
 					for(i = 0; i < size - 1; i++){                          //         5, 9, 13, 17 and 21 are arranged in ascending order.
 						index = i;
 						for(j = i + 1; j < size; j++){
-						if(a[j] < a[index]){
-							index = j;
+							if(a[j] < a[index]){
+								index = j;
+							}
 						}
-					}
-					swap(&a[i],&a[index]);	
+						swap(&a[i],&a[index]);	
 					}
 				}else if(type == BubbleSort){
 					for(i = 0; i < size; i++){

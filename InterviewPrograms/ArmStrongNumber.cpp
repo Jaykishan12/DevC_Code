@@ -1,6 +1,9 @@
 
 /* Armstrong number is sum of cubes of its digits */
 
+inline int CubeofNumber(int number){
+	return number * number * number;
+}
 #include "stdio.h"
 
 int main(){
@@ -10,7 +13,7 @@ int main(){
 	temp = number;
 	while(temp > 0){
 		digits = temp % 10;
-		armstrongSum += digits * digits * digits;
+		armstrongSum += CubeofNumber(digits);//digits * digits * digits;
 		temp = temp / 10;
 	}
 	if(armstrongSum == number){

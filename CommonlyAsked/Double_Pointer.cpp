@@ -5,8 +5,8 @@ int main(){
 	int *ptr = &num;
 	int **ptr1 = &ptr;
 	
-	printf("1: %d",num);
-	printf("2: %x",ptr);
-	printf("3: %x",*ptr1);
-	printf("4: %d",**ptr1);
+	printf("1: %d\n",num);
+	printf("2: %x\n",ptr);
+	printf("3: %x\n",*ptr1);
+	printf("4: %d\n",**ptr1);
 }

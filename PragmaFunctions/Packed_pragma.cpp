@@ -8,7 +8,7 @@ char c;
 int i;
 }B;
 
-#pragma pack(1)
+//#pragma pack(1)
 typedef struct A_packed
 {
 char c;
